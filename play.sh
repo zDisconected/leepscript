@@ -6,6 +6,8 @@ apt install python2
 apt install python
 apt install git
 
+clear
+
 function _menu()
 {
     echo ""
