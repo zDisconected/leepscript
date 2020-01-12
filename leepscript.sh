@@ -1,4 +1,4 @@
-#!/system/bin/sh
+#!/bin/bash
 
 clear 
 apt install python3
