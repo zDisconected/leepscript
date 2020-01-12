@@ -46,6 +46,12 @@ do
           clear
           _menu
           ;;
+          
+       4)
+       
+         exit
+         _menu
+         ;;
 
        *)
     
