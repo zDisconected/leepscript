@@ -19,7 +19,7 @@ pkg install git
 function _menu()
 {
     echo ""
-    echo -e "\e[1;31m"
+    echo "\e[1;31m"
     echo "Bienvenido a LeepScript"
     echo 
     echo "1) IPGeoLocation (Localizar a persona por ip)"
