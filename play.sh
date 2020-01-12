@@ -51,8 +51,8 @@ do
           
        4)
        
-         exit
          clear
+         exit
          _menu
          ;;
 
