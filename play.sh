@@ -29,18 +29,21 @@ do
          
           cd ..
           git clone https://github.com/maldevel/IPGeoLocation.git
+          clear
           _menu
           ;;
        2)
         
           cd ..
           git clone https://github.com/TheSpeedX/TBomb.git
+          clear
           _menu
           ;;
        3)
        
           cd ..
           git clone https://github.com/Manisso/fsociety.git
+          clear
           _menu
           ;;
 
