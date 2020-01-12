@@ -52,6 +52,7 @@ do
        4)
        
          exit
+         clear
          _menu
          ;;
 
