@@ -1,64 +1,38 @@
-#!/bin/bash
-
-clear 
-apt install python3
-apt install python2
-apt install python
-apt install git
-else
-apt-get install python3
-apt-get install python2
-apt-get install python
-apt-get install git
-else
-pkg install python3
-pkg install python2
-pkg install python
-pkg install git
-
-function _menu()
-{
-    echo ""
-    echo "\e[1;31m"
-    echo "Bienvenido a LeepScript"
-    echo 
-    echo "1) IPGeoLocation (Localizar a persona por ip)"
-    echo "2) TBomb (Enviar miles de sms)"
-    echo "3) FSociety (Script Hack de la serie MR.ROBOT)"
-    echo
-    echo "4) Salir"
-    echo ""
-    
-    }
-
-opc=0
-until [ $opc -eq 9 ]
-do
-    case $opc in
-       1)
-         
-          cd ..
-          git clone https://github.com/maldevel/IPGeoLocation.git
-          _menu
-          ;;
-       2)
-        
-          cd ..
-          git clone https://github.com/TheSpeedX/TBomb.git
-          _menu
-          ;;
-       3)
-       
-          cd ..
-          git clone https://github.com/Manisso/fsociety.git
-          _menu
-          ;;
-
-       *)
-    
-          _menu
-          ;;
-
-     esac 
-     read opc
-done
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+ 
+import os
+ 
+def menu():
+	"""
+	Función que limpia la pantalla y muestra nuevamente el menu
+	"""
+	os.system('clear') # NOTA para windows tienes que cambiar clear por cls
+	print ("Selecciona una opción")
+	print ("\t1 - primera opción")
+	print ("\t2 - segunda opción")
+	print ("\t3 - tercera opción")
+	print ("\t9 - salir")
+ 
+ 
+while True:
+	# Mostramos el menu
+	menu()
+ 
+	# solicituamos una opción al usuario
+	opcionMenu = input("inserta un numero valor >> ")
+ 
+	if opcionMenu=="1":
+		print ("")
+		input("Has pulsado la opción 1...\npulsa una tecla para continuar")
+	elif opcionMenu=="2":
+		print ("")
+		input("Has pulsado la opción 2...\npulsa una tecla para continuar")
+	elif opcionMenu=="3":
+		print ("")
+		input("Has pulsado la opción 3...\npulsa una tecla para continuar")
+	elif opcionMenu=="9":
+		break
+	else:
+		print ("")
+		input("No has pulsado ninguna opción correcta...\npulsa una tecla para continuar")
