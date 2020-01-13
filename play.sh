@@ -45,7 +45,7 @@ do
          
           cd ..
           git clone https://github.com/maldevel/IPGeoLocation.git
-          clear
+          cd IPGeoLocation;chmod +x *;python ipgeolocation.py
           _menu
           ;;
        2)
