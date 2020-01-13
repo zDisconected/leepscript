@@ -8,6 +8,20 @@ apt install git
 
 clear
 
+echo -e "\e[1;32m"
+echo "Ya Tienes Todo Instalado"
+echo "Por Favor para continuar pulsa ENTER"
+read var
+if [ var = *enter* ]
+then
+    
+    echo "enter pressed"
+    else
+        
+        echo $var 
+    fi 
+    clear
+
 function _menu()
 {
     echo ""
