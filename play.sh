@@ -61,7 +61,7 @@ do
           clear
           chmod +x *
           pip3 install -r requirements.txt -user
-          bash TBomb,sh
+          bash TBomb.sh
           ;;
        3)
        
