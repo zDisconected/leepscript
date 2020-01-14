@@ -48,6 +48,7 @@ do
           cd ..
           git clone https://github.com/maldevel/IPGeoLocation.git
           cd IPGeoLocation
+          clear
           chmod +x *
           pip3 install -r requirements.txt --user
           python ipgeolocation.py
@@ -56,8 +57,11 @@ do
         
           cd ..
           git clone https://github.com/TheSpeedX/TBomb.git
+          cd TBomb
           clear
-          _menu
+          chmod +x *
+          pip3 install -r requirements.txt -user
+          bash TBomb,sh
           ;;
        3)
        
