@@ -5,6 +5,7 @@ apt install python3
 apt install python2
 apt install python
 apt install git
+apt install git3
 
 clear
 
@@ -46,8 +47,10 @@ do
          
           cd ..
           git clone https://github.com/maldevel/IPGeoLocation.git
-          cd IPGeoLocation;chmod +x *;python ipgeolocation.py
-          _menu
+          cd IPGeoLocation
+          chmod +x *
+          pip3 install -r requirements.txt --user
+          python ipgeolocation.py
           ;;
        2)
         
