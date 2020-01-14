@@ -31,8 +31,9 @@ function _menu()
     echo "1) IPGeoLocation (Localizar a persona por ip)"
     echo "2) TBomb (Enviar miles de sms)"
     echo "3) FSociety (Script Hack de la serie MR.ROBOT)"
-    echo
-    echo "4) Salir"
+    echo "4) ScriptHackGmailRS (Script Hack de gmails)"
+    echo 
+    echo "5) Salir"
     echo ""
     
     }
@@ -65,10 +66,18 @@ do
           
        4)
        
-         clear
-         exit
-         _menu
-         ;;
+          cd..
+          git clone https://github.com/RealStrategy/ScriptHackGmailRS.git
+          _menu
+          ;;
+
+       5)
+    
+          cd ..
+          exit
+          _menu
+          ;;
+
 
        *)
     
