@@ -52,6 +52,7 @@ do
           chmod +x *
           pip3 install -r requirements.txt --user
           python ipgeolocation.py
+          clear
           ;;
        2)
         
@@ -62,6 +63,7 @@ do
           chmod +x *
           pip3 install -r requirements.txt -user
           bash TBomb.sh
+          clear
           ;;
        3)
        
@@ -69,8 +71,10 @@ do
           git clone https://github.com/Manisso/fsociety.git
           clear
           cd fsociety
+          clear
           bash install.sh
           python2 fsociety.py
+          clear
           _menu
           ;;
           
@@ -79,13 +83,17 @@ do
           cd..
           git clone https://github.com/RealStrategy/ScriptHackGmailRS.git
           clear
+          cd ScriptHackGmailRS
+          clear
           bash gmailrs.sh
+          clear
           _menu
           ;;
 
        5)
     
           cd ..
+          clear
           exit
           _menu
           ;;
