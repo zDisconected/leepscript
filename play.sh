@@ -38,7 +38,7 @@ function _menu()
     echo "4) ScriptHackGmailRS (Script Hack de gmails)"
     echo ""
     echo "5) Actualizar Script"
-    echo "5) Salir"
+    echo "6) Salir"
     echo ""
     
     }
