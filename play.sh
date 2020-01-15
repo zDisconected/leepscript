@@ -90,6 +90,13 @@ do
           ;;
 
        5)
+         
+          rm play.sh
+          cd ..
+          rm -r leepscript
+          git clone https://github.com/zDisconected/leepscript.git
+          leep
+       6)
     
           cd ..
           clear
