@@ -32,7 +32,13 @@ function _menu()
 {
     echo ""
     echo -e "\e[1;31m"
-    echo "Bienvenido a LeepScript"
+    echo "                                            
+
+_      ______ ______ _____   _____  _____ _____  >| |    |  ____|  ____|  __ \ / ____|/ ____|  __ \>
+| |    | |__  | |__  | |__) | (___ | |    | |__) >
+| |    |  __| |  __| |  ___/ \___ \| |    |  _  />| |____| |____| |____| |     ____) | |____| | \ \>
+|______|______|______|_|    |_____/ \_____|_|  \_>                                                  
+"
     echo 
     echo "1) IPGeoLocation (Localizar a persona por ip)"
     echo "2) TBomb (Enviar miles de sms)"
