@@ -96,6 +96,7 @@ do
           cd ..
           git clone https://github.com/zDisconected/leepscript.git
           cd leepscript
+          chmod +x *
           leep
           ;;
        6)
