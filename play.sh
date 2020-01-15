@@ -43,14 +43,6 @@ function _menu()
     
     }
     
- function _opt()
- {
-   
- local choice
- read -p "Enter choice [ 1 - 3] " choice
- case $choice in
- }
-
 opc=0
 until [ "$opc" -eq "9" ]
 do
@@ -102,7 +94,6 @@ do
          
           rm play.sh
           cd ..
-          rm -r leepscript
           git clone https://github.com/zDisconected/leepscript.git
           cd leepscript
           leep
