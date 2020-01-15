@@ -1,5 +1,7 @@
 #!/system/bin/sh
 
+
+# HOKA
 clear 
 apt install python3
 apt install python2
