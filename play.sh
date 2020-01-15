@@ -78,6 +78,8 @@ do
        
           cd..
           git clone https://github.com/RealStrategy/ScriptHackGmailRS.git
+          clear
+          bash gmailrs.sh
           _menu
           ;;
 
