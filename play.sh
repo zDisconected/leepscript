@@ -90,6 +90,7 @@ do
     
           cd ..
           clear
+          cd ..
           exit
           _menu
           ;;
