@@ -43,7 +43,7 @@ function _menu()
  |_____|  \___|  \___| | .__/  |____/   \___| |_|    |_| | .__/   \__|
                        |_|                               |_|          
            
-                     MADE FOR zDisconected
+                     
     
     "
     echo 
