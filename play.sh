@@ -36,11 +36,20 @@ function _menu()
     echo "2) TBomb (Enviar miles de sms)"
     echo "3) FSociety (Script Hack de la serie MR.ROBOT)"
     echo "4) ScriptHackGmailRS (Script Hack de gmails)"
-    echo 
+    echo ""
+    echo "5) Actualizar Script"
     echo "5) Salir"
     echo ""
     
     }
+    
+ function _opt()
+ {
+   
+ local choice
+ read -p "Enter choice [ 1 - 3] " choice
+ case $choice in
+ }
 
 opc=0
 until [ "$opc" -eq "9" ]
@@ -95,7 +104,9 @@ do
           cd ..
           rm -r leepscript
           git clone https://github.com/zDisconected/leepscript.git
+          cd leepscript
           leep
+          ;;
        6)
     
           cd ..
