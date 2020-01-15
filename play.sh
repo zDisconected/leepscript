@@ -107,8 +107,11 @@ do
        5)
          
           cd ..
-          git clone --depth=1 https://github.com/zDisconected/leepscript
+          rm -rf leepscript
+          git clone https://github.com/zDisconected/leepscript
+          cd leepscript
           chmod +x play.sh
+          rm leep
           leep
           ;;
        6)
