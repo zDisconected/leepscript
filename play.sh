@@ -68,6 +68,8 @@ do
           cd ..
           git clone https://github.com/Manisso/fsociety.git
           clear
+          cd fsociety
+          bash install.sh
           _menu
           ;;
           
