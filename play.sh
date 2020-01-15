@@ -6,6 +6,8 @@ apt install python2
 apt install python
 apt install git
 apt install git3
+chmod +x leep
+cp leep data/data/com.termux/files/usr/bin
 
 clear
 
