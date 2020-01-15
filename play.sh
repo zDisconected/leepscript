@@ -55,6 +55,9 @@ function _menu()
     echo "5) Actualizar Script"
     echo "6) Salir"
     echo ""
+    echo ""
+    echo -e "Selecciona una opcion >> \c"
+    
     
     }
     
