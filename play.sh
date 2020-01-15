@@ -106,13 +106,16 @@ do
           ;;
 
        5)
-         
-          cd ..
-          rm -rf leepscript
-          git clone https://github.com/zDisconected/leepscript
+        
+          clear
+          echo -e "\e[1;34m Downloading Latest Files..."
+          git clone https://github.com/zdisconected/leepscript
           cd leepscript
+          cp -r -f * ..
+          cd ..
+          rm -rf  leepscript
+          rm temp
           chmod +x play.sh
-          rm leep
           leep
           ;;
        6)
