@@ -56,7 +56,8 @@ function _menu()
     echo "6) Salir"
     echo ""
     echo ""
-    echo -e "Selecciona una opcion >> \c"
+    echo -e "\e[1;32m"
+    echo -e "Selecciona una opcion >> \c \e[38;5;231m"
     
     
     }
