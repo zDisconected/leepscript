@@ -52,8 +52,7 @@ function _menu()
     echo "3) FSociety (Script Hack de la serie MR.ROBOT)"
     echo "4) ScriptHackGmailRS (Script Hack de gmails)"
     echo ""
-    echo "5) Actualizar Script"
-    echo "6) Salir"
+    echo "5) Salir"
     echo ""
     echo ""
     echo -e "\e[1;32m"
@@ -108,21 +107,8 @@ do
           bash gmailrs.sh
           _menu
           ;;
-
+          
        5)
-        
-          clear
-          cd ..
-          rm -rf leepscrip
-          ls
-          git clone https://github.com/zdisconected/leepscript
-          cd leepscript
-          chmod +x play.sh
-          rm leep
-          clear
-          leep
-          ;;
-       6)
     
           cd ..
           clear
