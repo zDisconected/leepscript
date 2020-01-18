@@ -115,7 +115,7 @@ do
           cd ..
           cd ..
           echo "Gracias por usar LeepScript"
-          echo "Unete a nuestro discord: https://discord.gg/7GKj9Sy
+          echo "Unete a nuestro discord: https://discord.gg/7GKj9Sy"
           exit
           _menu
           ;;
